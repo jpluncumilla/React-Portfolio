@@ -1,0 +1,30 @@
+.About {
+    background-color: #001b47;
+    color: blanchedalmond;
+    padding-top: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 15%;
+
+}
+
+.About-title {
+    margin-bottom: 5%;
+    font-family: 'Russo One', sans-serif;
+}
+
+.About-paragraph {
+    font-family: 'Roboto', sans-serif;
+}
+
+.About-icons {
+    font-size: 50px;
+    margin-top: 4%;
+    margin-bottom: 4%;
+}
+
+.About-icons :hover {
+    transform: scale(1.02);
+    opacity: 0.7;
+    transition: all ease 600ms;
+}

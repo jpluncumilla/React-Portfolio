@@ -1,0 +1,18 @@
+.Projects-cards {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    text-align: center;
+    margin-top: 5%;
+}
+
+.Projects-title {
+    font-family: 'Russo One', sans-serif;
+    color: blanchedalmond;
+}
+
+.Projects {
+    background-color: #001130;
+    padding-top: 5%;
+    padding-bottom: 10%;
+}
