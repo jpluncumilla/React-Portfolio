@@ -27,14 +27,14 @@
 @media only screen and (max-width: 768px) {
     .Jumbo-title {
         font-size: 45px;
-        margin-top: 35%;
+        margin-top: 50%;
     }
     .Jumbo-subtitle {
         margin-bottom: 38%;
-        margin-top: 5%;
+        margin-top: 10%;
     }
     .Jumbo-icon{
         margin-bottom: 10%;
-        margin-top: 5%;
+        margin-top: 10%;
     }
 }
