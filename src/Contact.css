@@ -19,9 +19,9 @@ a {
 @media only screen and (max-width: 768px) {
     .Contact-title {
         margin-top: 12%;
-        margin-bottom: 40%;
+        margin-bottom: 45%;
     }
     .Contact-icons{
-        padding-bottom: 40%;
+        padding-bottom: 45%;
     }
 }
