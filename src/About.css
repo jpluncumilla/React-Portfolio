@@ -31,8 +31,8 @@
 
 @media only screen and (max-width: 768px) {
     .About-title {
-        margin-top: 12%;
-        margin-bottom: 12%;
+        margin-top: 20%;
+        margin-bottom: 17%;
     }
 
     .About-icons {
@@ -41,6 +41,6 @@
     }
 
     .About {
-        padding-bottom: 23%;
+        padding-bottom: 27%;
     }
 }
