@@ -3,7 +3,7 @@ import "./Jumbo.css";
 import Particles from 'react-particles-js';
 import {IoIosArrowDropdownCircle} from "react-icons/io"
 import Fade from 'react-reveal/Fade';
-import {Link} from "react-router-dom";
+import { NavHashLink as NavLink } from 'react-router-hash-link';
 
 
 
@@ -40,7 +40,9 @@ class Jumbo extends Component {
                  <h2 className="Jumbo-subtitle">front end developer</h2>
                 </Fade>
                 <Fade bottom>
-                    <IoIosArrowDropdownCircle className="Jumbo-icon"/>
+                    <NavLink smooth to="/About#About" activeClassName="selected">
+                       <IoIosArrowDropdownCircle className="Jumbo-icon"/>
+                    </NavLink>
                 </Fade>
 
             </div>

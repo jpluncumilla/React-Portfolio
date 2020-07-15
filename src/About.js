@@ -2,6 +2,8 @@ import React, {Component} from "react";
 import "./About.css";
 import {DiReact, DiJsBadge, DiHtml5, DiCss3, DiJqueryLogo, DiNodejs, DiNpm, DiMongodb, DiFirebase} from "react-icons/di"
 import Fade from 'react-reveal/Fade';
+import { NavHashLink as NavLink } from 'react-router-hash-link';
+import {IoIosArrowDropdownCircle} from "react-icons/io";
 
 
 
@@ -9,7 +11,7 @@ import Fade from 'react-reveal/Fade';
 class About extends Component {
     render(){
         return (
-            <div className="About">
+            <div className="About" id="About">
                 <Fade bottom>
                   <h1 className="About-title">About Me</h1>
                 </Fade>
@@ -19,6 +21,11 @@ class About extends Component {
                 <p className="About-paragraph">My back end and database skills consist of:</p>
                 <p className="About-icons"> <DiNodejs /> <DiNpm /> <DiMongodb /> <DiFirebase /> </p>
                 <p className="About-paragraph">Outside of my programming skills I have prior experience in hospitality that includes managerial experience working in a shared workspace in a start up enviroment as well as luxury hotels.</p>
+                </Fade>
+                <Fade bottom>
+                    <NavLink smooth to="/Projects#Projects" activeClassName="selected">
+                       <IoIosArrowDropdownCircle className="About-icon"/>
+                    </NavLink>
                 </Fade>
             </div>
         )

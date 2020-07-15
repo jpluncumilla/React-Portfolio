@@ -6,6 +6,7 @@ import Navbar from "./Navbar"
 import Contact from "./Contact"
 import Footer from "./Footer"
 import Jumbo from "./Jumbo"
+import { HashLink as Link } from 'react-router-hash-link';
 
 
 function App() {

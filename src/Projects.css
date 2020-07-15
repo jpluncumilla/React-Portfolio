@@ -3,7 +3,8 @@
     justify-content: space-evenly;
     flex-wrap: wrap;
     text-align: center;
-    margin-top: 5%;
+    margin-top: 3%;
+    margin-bottom: 2%;
 }
 
 .Projects-title {
@@ -11,14 +12,23 @@
     color: blanchedalmond;
 }
 
+.Projects-icon {
+    font-size: 50px;
+}
+
 .Projects {
     background-color: #001130;
-    padding-top: 5%;
-    padding-bottom: 10%;
+    padding-top: 4%;
+    padding-bottom: 6%;
 }
 
 @media only screen and (max-width: 768px) {
     .Projects-title {
         padding-top: 12%;
+    }
+
+    .Projects-icon {
+        margin-bottom: 7%;
+        margin-top: 5%;
     }
 }

@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import "./Projects.css";
 import Cards from "./Cards";
 import Fade from 'react-reveal/Fade';
+import { NavHashLink as NavLink } from 'react-router-hash-link';
+import {IoIosArrowDropdownCircle} from "react-icons/io";
 
 class Projects extends Component {
     static defaultProps = {
@@ -15,13 +17,18 @@ class Projects extends Component {
 
     render() {
         return (
-            <div className="Projects">
+            <div className="Projects" id="Projects">
                 <Fade bottom>
                   <h1 className="Projects-title">Work</h1>
                   <div className="Projects-cards">
                 {this.props.projects.map(p =>
                     <Cards id={p.id} title={p.title} technology={p.technology} description={p.description}/>)}
                 </div>
+                </Fade>
+                <Fade bottom>
+                    <NavLink smooth to="/Contact#Contact" activeClassName="selected">
+                       <IoIosArrowDropdownCircle className="Projects-icon"/>
+                    </NavLink>
                 </Fade>
                 </div>
         )
