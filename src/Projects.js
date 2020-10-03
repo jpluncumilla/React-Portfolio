@@ -1,38 +1,78 @@
 import React, { Component } from 'react';
-import "./Projects.css";
-import Cards from "./Cards";
+import './Projects.css';
+import Cards from './Cards';
 import Fade from 'react-reveal/Fade';
 import { NavHashLink as NavLink } from 'react-router-hash-link';
-import {IoIosArrowDropdownCircle} from "react-icons/io";
+import { IoIosArrowDropdownCircle } from 'react-icons/io';
 
 class Projects extends Component {
-    static defaultProps = {
-        projects : [
-            {id: 1, title: 'Pokedex', technology: "React.js & CSS", description: "Pokedex is a simple project created with the purpose of enforcing styling practices as well as import and exporting components."},
-            {id: 2, title: 'Dice Game', technology: "Javascript & CSS", description: "Dice Game was made using JavaScript as a practice of logic as well as DOM manipulation."},
-            {id: 3, title: 'Crystals Game', technology: "jQuery, Javascript & CSS", description: "Crystals Game was created with the purpose of enforcing logic as well as a practice of jQuery DOM manipulation."},
-            {id: 4, title: 'Friend Finder', technology: "React.js, Node.js & Express", description: "Friend Finder is a collaborative project made as a disaster relief effort for IBM's Call for Code. It was made with React.js, Node.js, Express.js, and deployment in Heroku."}
-        ]
-    }
+  static defaultProps = {
+    projects: [
+      {
+        id: 1,
+        title: 'Miscreant Productions',
+        technology: 'React.js & CSS',
+        description:
+          "Freelance project created for Digital Media client to showcase the agency's work.",
+        github: 'https://github.com/iamjpyo/Miscreant-React',
+        link: 'https://miscreant-38b2a.web.app/',
+      },
+      {
+        id: 2,
+        title: 'Dice Game',
+        technology: 'Javascript & CSS',
+        description:
+          'Dice Game was made using JavaScript and CSS as a practice of logic as well as DOM manipulation.',
+        github: 'https://github.com/iamjpyo/Dice-Game-With-DOM',
+        link: 'https://iamjpyo.github.io/Dice-Game-With-DOM/',
+      },
+      {
+        id: 3,
+        title: 'Crystals Game',
+        technology: 'jQuery, Javascript & CSS',
+        description:
+          'Crystals Game was created with the purpose of enforcing logic as well as a practice of DOM manipulation.',
+        github: 'https://github.com/iamjpyo/unit-4-game',
+        link: 'https://iamjpyo.github.io/unit-4-game/',
+      },
+      {
+        id: 4,
+        title: 'Disaster Relief',
+        technology: 'React.js, Node.js & Express',
+        description:
+          "Friend Finder is a collaborative project made as a disaster relief effort for IBM's Call for Code with Heroku deployment.",
+        github: 'https://github.com/iamjpyo/project2',
+        link: 'https://project2fam.herokuapp.com/',
+      },
+    ],
+  };
 
-    render() {
-        return (
-            <div className="Projects" id="Projects">
-                <Fade bottom>
-                  <h1 className="Projects-title">Work</h1>
-                  <div className="Projects-cards">
-                {this.props.projects.map(p =>
-                    <Cards id={p.id} title={p.title} technology={p.technology} description={p.description}/>)}
-                </div>
-                </Fade>
-                <Fade bottom>
-                    <NavLink smooth to="/Contact#Contact" activeClassName="selected">
-                       <IoIosArrowDropdownCircle className="Projects-icon"/>
-                    </NavLink>
-                </Fade>
-                </div>
-        )
-    }
+  render() {
+    return (
+      <div className='Projects' id='Projects'>
+        <Fade bottom>
+          <h1 className='Projects-title'>Work</h1>
+          <div className='Projects-cards'>
+            {this.props.projects.map((p) => (
+              <Cards
+                id={p.id}
+                title={p.title}
+                technology={p.technology}
+                description={p.description}
+                github={p.github}
+                link={p.link}
+              />
+            ))}
+          </div>
+        </Fade>
+        <Fade bottom>
+          <NavLink smooth to='/Contact#Contact' activeClassName='selected'>
+            <IoIosArrowDropdownCircle className='Projects-icon' />
+          </NavLink>
+        </Fade>
+      </div>
+    );
+  }
 }
 
 export default Projects;
