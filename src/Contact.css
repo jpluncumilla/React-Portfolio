@@ -13,6 +13,7 @@
 
 .Footer {
   font-family: 'Russo One', sans-serif;
+  font-size: 10px;
 }
 
 a {
@@ -24,7 +25,7 @@ a {
     height: 730px;
   }
   .Footer {
-    margin-top: 30%;
+    margin-top: 28%;
     font-family: 'Russo One', sans-serif;
   }
 }

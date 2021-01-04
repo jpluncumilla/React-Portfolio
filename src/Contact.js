@@ -18,7 +18,7 @@ class Contact extends Component {
                         <a target="_blank" href="https://drive.google.com/file/d/1uOSQelr7k5Arqcr_zzZ9AlkCqhq7CL_M/view?usp=sharing"><TiDocumentText /></a>
                     </div>
                     <div className="Footer">
-                        <p>Powered by: JP Luncumilla</p>
+                        <p className="Footer">Powered by: JP Luncumilla</p>
                     </div>
                 </Fade>
             </div>
