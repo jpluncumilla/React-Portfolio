@@ -16,7 +16,7 @@ class About extends Component {
                   <h1 className="About-title">About Me</h1>
                 </Fade>
                 <Fade bottom>
-                <p className="About-paragraph">Hello! I am JP Luncumilla, a certified web developer graduate at the Full Stack Development Program at The University of Miami. My front end skills consist of:</p>
+                <p className="About-paragraph">My name is JP Luncumilla, a certified web developer and graduate at the Full Stack Development Program of The University of Miami. My front end skills consist of:</p>
                 <p className="About-icons"> <DiHtml5 /> <DiReact /> <DiJsBadge /> <DiCss3 /> <DiJqueryLogo /> </p>
                 <p className="About-paragraph">My back end and database skills consist of:</p>
                 <p className="About-icons"> <DiNodejs /> <DiNpm /> <DiMongodb /> <DiFirebase /> </p>

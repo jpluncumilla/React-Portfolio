@@ -10,10 +10,10 @@ class Projects extends Component {
     projects: [
       {
         id: 1,
-        title: 'Miscreant Productions',
+        title: 'Miscreant Agency',
         technology: 'React.js & CSS',
         description:
-          "Freelance project created for Digital Media client to showcase the agency's work.",
+          "Freelance project created for Miami Digital Media client with purpose of showcasing agency's work.",
         github: 'https://github.com/iamjpyo/Miscreant-React',
         link: 'https://miscreant-38b2a.web.app/',
       },
@@ -28,12 +28,12 @@ class Projects extends Component {
       },
       {
         id: 3,
-        title: 'Crystals Game',
-        technology: 'jQuery, Javascript & CSS',
+        title: 'Stern-X',
+        technology: 'React.js, Node.js & Sass',
         description:
-          'Crystals Game was created with the purpose of enforcing logic as well as a practice of DOM manipulation.',
-        github: 'https://github.com/iamjpyo/unit-4-game',
-        link: 'https://iamjpyo.github.io/unit-4-game/',
+          'Stern-X is a product presentation website built for disinfecting products company. Client is well satisfied with outcome.',
+        github: 'https://github.com/InfinityITDept/Stern-X-React',
+        link: 'https://stern-x.com',
       },
       {
         id: 4,

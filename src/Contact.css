@@ -1,28 +1,42 @@
 .Contact {
-    background-color: #000a1c;
-    font-family: 'Russo One', sans-serif;  
-    padding-top: 5%;
-    color: blanchedalmond;
+  background-color: #00173f;
+  font-family: 'Russo One', sans-serif;
+  padding-top: 5%;
+  color: blanchedalmond;
+  height: 1000px;
 }
 .Contact-icons {
-    font-size: 50px;
-    text-decoration: none;
-    padding-top: 17%;
-    padding-bottom: 17%;
+  font-size: 50px;
+  text-decoration: none;
+  padding-top: 17%;
+}
+
+.Footer {
+  font-family: 'Russo One', sans-serif;
 }
 
 a {
-    margin: 3%;
-    color: blanchedalmond;
+  margin: 3%;
+  color: blanchedalmond;
 }
-
-
-@media only screen and (max-width: 768px) {
-    .Contact-title {
-        margin-top: 12%;
-        margin-bottom: 45%;
-    }
-    .Contact-icons{
-        padding-bottom: 60%;
-    }
+@media only screen and (max-width: 1600px) {
+  .Contact {
+    height: 730px;
+  }
+  .Footer {
+    margin-top: 30%;
+    font-family: 'Russo One', sans-serif;
+  }
+}
+@media only screen and (max-width: 900px) {
+  .Contact {
+    height: 685px;
+  }
+  .Contact-title {
+    margin-top: 12%;
+    margin-bottom: 45%;
+  }
+  .Contact-icons {
+    padding-bottom: 60%;
+  }
 }

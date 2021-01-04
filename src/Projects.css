@@ -1,34 +1,52 @@
 .Projects-cards {
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    text-align: center;
-    margin-top: 3%;
-    margin-bottom: 2%;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  text-align: center;
+  margin-top: 5%;
+  margin-bottom: 2%;
 }
 
 .Projects-title {
-    font-family: 'Russo One', sans-serif;
-    color: blanchedalmond;
+  font-family: 'Russo One', sans-serif;
+  color: blanchedalmond;
+  padding-top: 5%;
 }
 
 .Projects-icon {
-    font-size: 50px;
+  font-size: 50px;
+  margin-top: 6%;
 }
 
 .Projects {
-    background-color: #001130;
-    padding-top: 4%;
-    padding-bottom: 6%;
+  background-color: #001538;
+  height: 1000px;
 }
+@media only screen and (max-width: 1600px) {
+  .Projects {
+    height: 730px;
+  }
+  .Projects-title {
+    padding-top: 4%;
+  }
+  .Projects-cards {
+    margin-top: 2%;
+  }
+  .Projects-icon {
+    font-size: 50px;
+    margin-top: 2%;
+  }
+}
+@media only screen and (max-width: 900px) {
+  .Projects {
+    height: auto;
+  }
+  .Projects-title {
+    padding-top: 12%;
+  }
 
-@media only screen and (max-width: 768px) {
-    .Projects-title {
-        padding-top: 12%;
-    }
-
-    .Projects-icon {
-        margin-bottom: 7%;
-        margin-top: 5%;
-    }
+  .Projects-icon {
+    margin-bottom: 7%;
+    margin-top: 5%;
+  }
 }
