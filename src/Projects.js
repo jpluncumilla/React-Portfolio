@@ -19,21 +19,21 @@ class Projects extends Component {
       },
       {
         id: 2,
-        title: 'Dice Game',
-        technology: 'Javascript & CSS',
-        description:
-          'Dice Game was made using JavaScript and CSS as a practice of logic as well as DOM manipulation.',
-        github: 'https://github.com/iamjpyo/Dice-Game-With-DOM',
-        link: 'https://iamjpyo.github.io/Dice-Game-With-DOM/',
-      },
-      {
-        id: 3,
         title: 'Stern-X',
         technology: 'React.js, Node.js & Sass',
         description:
           'Stern-X is a product presentation website built for disinfecting products company. Client is well satisfied with outcome.',
         github: 'https://github.com/InfinityITDept/Stern-X-React',
         link: 'https://stern-x.com',
+      },
+      {
+        id: 3,
+        title: 'Dice Game',
+        technology: 'Javascript & CSS',
+        description:
+          'Dice Game was made using JavaScript and CSS as a practice of logic as well as DOM manipulation.',
+        github: 'https://github.com/iamjpyo/Dice-Game-With-DOM',
+        link: 'https://iamjpyo.github.io/Dice-Game-With-DOM/',
       },
       {
         id: 4,
