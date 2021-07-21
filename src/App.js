@@ -5,6 +5,7 @@ import About from "./About"
 import Contact from "./Contact"
 import Jumbo from "./Jumbo"
 import { HashLink as Link } from 'react-router-hash-link';
+import ScrollButton from './ScrollButton';
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
       <About />
       <Projects />
       <Contact />
+      <ScrollButton />
     </div>
   );
 }
