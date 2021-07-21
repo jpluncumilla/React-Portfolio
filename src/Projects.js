@@ -28,21 +28,48 @@ class Projects extends Component {
       },
       {
         id: 3,
-        title: 'Dice Game',
-        technology: 'Javascript & CSS',
+        title: 'CircleHub',
+        technology: 'Wordpress, HTML & CSS',
         description:
-          'Dice Game was made using JavaScript and CSS as a practice of logic as well as DOM manipulation.',
-        github: 'https://github.com/iamjpyo/Dice-Game-With-DOM',
-        link: 'https://iamjpyo.github.io/Dice-Game-With-DOM/',
+          'CircleHub is a presentation website for LA based coworking space. Site was built on Wordpress for marketing agency.',
+        github: 'https://circlehub.net/',
+        link: 'https://circlehub.net/',
       },
       {
         id: 4,
+        title: 'Introlift Spa',
+        technology: 'Wordpress, HTML & CSS',
+        description:
+          "Introlift is a informative website for Medical Spa located in Plantation, FL. Site was built on Wordpress for marketing purposes.",
+        github: 'https://introlift.com/',
+        link: 'https://introlift.com/',
+      },
+      {
+        id: 5,
+        title: 'FLPL',
+        technology: 'Wordpress, HTML & CSS',
+        description:
+          "FLPL is an services information site for Private Labeling company. Site was built on Wordpress for marketing purposes.",
+        github: 'https://flpl.biz/',
+        link: 'https://flpl.biz/',
+      },
+      {
+        id: 6,
         title: 'Disaster Relief',
         technology: 'React.js, Node.js & Express',
         description:
           "Friend Finder is a collaborative project made as a disaster relief effort for IBM's Call for Code with Heroku deployment.",
         github: 'https://github.com/iamjpyo/project2',
         link: 'https://project2fam.herokuapp.com/',
+      },
+      {
+        id: 7,
+        title: 'Dice Game',
+        technology: 'Javascript & CSS',
+        description:
+          "Dice Game was made using JavaScript and CSS as a practice of logic as well as DOM manipulation.",
+        github: 'https://iamjpyo.github.io/Dice-Game-With-DOM/',
+        link: 'https://github.com/iamjpyo/Dice-Game-With-DOM',
       },
     ],
   };

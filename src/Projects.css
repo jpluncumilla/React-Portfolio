@@ -20,11 +20,15 @@
 
 .Projects {
   background-color: #001538;
-  height: 1000px;
+  height: 1260px;
+  padding-left: 11%;
+  padding-right: 11%;
 }
 @media only screen and (max-width: 1600px) {
   .Projects {
-    height: 730px;
+    height: 1150px !important;
+    padding-left: 26px;
+    padding-right: 26px;
   }
   .Projects-title {
     padding-top: 4%;
@@ -39,7 +43,7 @@
 }
 @media only screen and (max-width: 900px) {
   .Projects {
-    height: auto;
+    height: 3440px !important;
   }
   .Projects-title {
     padding-top: 12%;
